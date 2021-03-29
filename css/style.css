@@ -701,19 +701,20 @@ ABOUT ME
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #580b54;
 }
 
 .skill-mf .progress {
-  background-color: #e3c5ff;
+  background-color: #f0e9f3;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
+  border-radius: 10px;
+  height: 0.9rem;
+  border: 1px solid #652b9b;
 }
 
 .skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #8400ff;
+  height: 0.9rem;
+  background-color: #a457ec;
 }
 
 /*
