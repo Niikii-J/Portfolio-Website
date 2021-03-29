@@ -193,6 +193,7 @@ Box
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
+  border-radius: 20px;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -731,13 +732,13 @@ SERVICES
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #8400ff;
+  background-color: #7038a5;
   box-shadow: 0 0 0 10px #e3c5ff;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #7038a5;
 }
 
 .service-box .ico-circle {
@@ -787,9 +788,12 @@ PORTFOLIO
 
 .work-box {
   margin-bottom: 3rem;
+  padding: 1rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 14px;
+  border: 2px solid rgb(219, 210, 221);
 }
 
 .work-box:hover img {
@@ -803,7 +807,7 @@ PORTFOLIO
 }
 
 .work-img img {
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .work-content {
@@ -813,24 +817,6 @@ PORTFOLIO
 .work-content .w-more {
   color: #4e4e4e;
   font-size: 0.8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color: #8400ff;
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color: #8400ff;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: #8400ff;
-}
-
-.work-content .w-like .num-like {
-  font-size: 0.7rem;
 }
 
 .w-title {
