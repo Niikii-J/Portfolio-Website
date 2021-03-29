@@ -1,6 +1,6 @@
 body {
   background-color: #f5f5f5;
-  color: #4e4e4e;
+  color: #603f68;
 }
 
 h1,
@@ -176,7 +176,7 @@ Title Left
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #8400ff;
+  background-color: #461177;
   width: 100px;
   bottom: -12px;
 }
@@ -218,7 +218,7 @@ Social Media Icons
   line-height: 1.4;
   margin: 0 15px 0 0;
   background-color: white;
-  box-shadow: 0 0 0 3px #8400ff;
+  box-shadow: 0 0 0 3px #52059b;
   transition: all 500ms ease;
 }
 
@@ -266,7 +266,7 @@ Ico Circle
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #8400ff;
+  box-shadow: 0 0 0 10px #52059b;
   display: block;
 }
 
@@ -434,7 +434,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #a58abe;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -473,7 +473,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #d5adfa;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -489,32 +489,32 @@ NAVBAR
 
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  background-color: #fff;
+  background-color: #231a2abb;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #8400ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #8400ff;
+  background-color: #c68afd;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #8400ff;
+  color: #b0a2be;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #8400ff;
+  color: #9a3af5;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #8400ff;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -668,7 +668,7 @@ INTRO
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #8400ff;
+  color: #ba75fc;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
