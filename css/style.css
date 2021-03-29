@@ -47,8 +47,7 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
+.box-shadow-a{
   box-shadow: 0 0 0 4px #e3c5ff;
 }
 
@@ -743,7 +742,7 @@ SERVICES
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  font-size: 4.4rem;
 }
 
 .service-box .s-title {
@@ -994,53 +993,62 @@ footer .credits a {
 BUTTON
 */
 
+
+
 .button {
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 1rem;
-  border-radius: 0.3rem;
-  border: 1px solid transparent;
-  transition: all 500ms ease;
+  background: #222;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  padding-top: 5px;
 }
 
-.button:focus {
-  outline: 0;
+.button .circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .button:hover {
-  background-color: #5a03ac;
-  color: #fff;
-  transition: all 500ms ease;
+  background: transparent;
 }
 
-.button-a {
-  background-color: #8400ff;
-  color: #fff;
-  border-color: #e3c5ff;
+.button:hover .circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
 }
 
-.button-big {
-  padding: 0.9rem 2.3rem;
-  font-size: 1.2rem;
-}
 
-.button-rouded {
-  border-radius: 5rem;
-}
 
-.btn-lg {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 0.3rem;
-}
 
 @media (min-width: 577px) {
   .counter-box {
