@@ -1037,6 +1037,7 @@ BUTTON
 
 .button:hover {
   background: transparent;
+  color: #8400ff;
 }
 
 .button:hover .circle {
@@ -1044,7 +1045,7 @@ BUTTON
   width: 150px;
   left: 0;
   border-radius: 0;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #8400ff;
 }
 
 
