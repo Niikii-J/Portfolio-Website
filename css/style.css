@@ -145,7 +145,6 @@ Title A
 .title-a {
   font-size: 3rem;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .subtitle-a {
@@ -436,7 +435,6 @@ NAVBAR
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
   color: #a58abe;
-  text-transform: uppercase;
   font-weight: 600;
 }
 
@@ -663,7 +661,6 @@ INTRO
 }
 
 .intro-single .intro-title {
-  text-transform: uppercase;
   font-size: 3rem;
 }
 
@@ -748,7 +745,6 @@ SERVICES
 
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
 }
@@ -873,7 +869,6 @@ Sidebar
   font-weight: 600;
   border-left: 5px solid #8400ff;
   padding-left: 15px;
-  text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
