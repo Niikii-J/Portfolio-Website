@@ -47,7 +47,7 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a{
+.box-shadow-a {
   box-shadow: 0 0 0 4px #e3c5ff;
 }
 
@@ -993,8 +993,6 @@ footer .credits a {
 BUTTON
 */
 
-
-
 .button {
   background: #222;
   height: 50px;
@@ -1003,7 +1001,7 @@ BUTTON
   border-radius: 10px;
   color: #eee;
   font-size: 40px;
-  font-family: 'Cookie', cursive;
+  font-family: "Cookie", cursive;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
@@ -1028,11 +1026,11 @@ BUTTON
 
 .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .button:hover {
@@ -1048,8 +1046,32 @@ BUTTON
   border-bottom: 2px solid #8400ff;
 }
 
+.btn-Resume {
+  background: #8400ff;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 30px;
+  font-family: "Cookie", cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
 
+.btn-Resume a {
+  color: white;
+}
 
+.btn-Resume:hover {
+  background:#1d0e20;
+}
 
 @media (min-width: 577px) {
   .counter-box {
