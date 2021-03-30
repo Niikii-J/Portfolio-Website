@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+  font-family: "Berkshire Swash", cursive;
 }
 
 a {
@@ -998,10 +999,10 @@ BUTTON
   height: 50px;
   min-width: 150px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   color: #eee;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
@@ -1054,7 +1055,7 @@ BUTTON
   border-radius: 10px;
   color: #eee;
   font-size: 17px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
@@ -1064,7 +1065,6 @@ BUTTON
   cursor: pointer;
   padding-top: 5px;
   transition: 300ms;
-
 }
 
 .btn-Resume a {
@@ -1072,7 +1072,7 @@ BUTTON
 }
 
 .btn-Resume:hover {
-  background:#1d0e20;
+  background: #1d0e20;
 }
 
 @media (min-width: 577px) {
