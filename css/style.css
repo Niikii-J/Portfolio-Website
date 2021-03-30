@@ -1063,6 +1063,8 @@ BUTTON
   justify-content: center;
   cursor: pointer;
   padding-top: 5px;
+  transition: 300ms;
+
 }
 
 .btn-Resume a {
