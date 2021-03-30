@@ -1000,8 +1000,8 @@ BUTTON
   border: none;
   border-radius: 10px;
   color: #eee;
-  font-size: 40px;
-  font-family: "Cookie", cursive;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
@@ -1048,13 +1048,13 @@ BUTTON
 
 .btn-Resume {
   background: #8400ff;
-  height: 50px;
+  height: 35px;
   min-width: 150px;
   border: none;
   border-radius: 10px;
   color: #eee;
-  font-size: 30px;
-  font-family: "Cookie", cursive;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
