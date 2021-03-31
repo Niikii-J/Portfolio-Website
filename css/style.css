@@ -216,7 +216,7 @@ Social Media Icons
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  margin: 0 15px 0 0;
+  margin: 10px 15px;
   background-color: white;
   box-shadow: 0 0 0 3px #52059b;
   transition: all 500ms ease;
@@ -954,7 +954,7 @@ BUTTON
 .button {
   background: #222;
   height: 50px;
-  min-width: 150px;
+  min-width: 140px;
   border: none;
   border-radius: 30px;
   color: #eee;
@@ -1030,6 +1030,10 @@ BUTTON
 
 .btn-Resume:hover {
   background: #1d0e20;
+}
+
+#contact-img {
+  width: 100%;
 }
 
 @media (min-width: 577px) {
