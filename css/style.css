@@ -1040,6 +1040,17 @@ BUTTON
   width: 100%;
 }
 
+/*program icon style*/
+.software-ico{
+  max-width: 50px;
+  align-items: center;
+  margin: 10px;
+}
+
+.program-list{
+  list-style: none;
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
